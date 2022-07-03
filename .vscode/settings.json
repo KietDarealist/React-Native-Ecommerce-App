@@ -1,0 +1,83 @@
+{
+    "usum-generate-i18.linkFolder": "src/assets/locales",
+    "usum-generate-i18.language": "vi",
+    "files.exclude": {
+      "node_modules": true
+    },
+    "editor.formatOnSave": true,
+    "[javascriptreact, typescript, typescriptreact, scss, css, json ]": {
+      "editor.formatOnSave": true,
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescriptreact, json]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "search.exclude": {
+      "**/package-lock.json": true,
+      "**/yarn.lock": true,
+    },
+    "typescript.tsdk": "node_modules/typescript/lib",
+    "cSpell.ignoreRegExpList": [
+      "mixins",
+      "ISEO",
+      "nprogress",
+      "tailwind",
+      "@tailwind",
+      "immer",
+      "realityestate",
+      "headlessui",
+      "crossdomain",
+      "semibold",
+      "formik",
+      "Youtube",
+      "brainhubeu",
+      "embla",
+      "zalo",
+      "dropzone",
+      "Lightbox",
+      "Recaptcha",
+      "Scriptjs",
+      "Geocode",
+      "postbuild",
+      "ISVG",
+      "Kingify",
+      "csstype",
+      "languagedetector"
+    ],
+  
+    "editor.tabSize": 2,
+    "editor.autoClosingQuotes": "always",
+    "tailwindCSS.experimental.classRegex": [
+      "tw`([^`]*)", // tw`...`
+      "tw=\"([^\"]*)", // <div tw="..." />
+      "tw={\"([^\"}]*)", // <div tw={"..."} />
+      "innerClassName={\"([^\"}]*)", // <div tw={"..."} />
+      "tw\\.\\w+`([^`]*)", // tw.xxx`...`
+      "tw\\(.*?\\)`([^`]*)" // tw(Component)`...`
+    ],
+    "tailwindCSS.classAttributes": [
+      "class",
+      "className",
+      "ngClass",
+      "enter",
+      "enterFrom",
+      "enterTo",
+      "leave",
+      "leaveFrom",
+      "leaveTo"
+    ],
+    "tailwindCSS.includeLanguages": {
+      "typescript": "javascript",
+      "typescriptreact": "javascript"
+    },
+    "i18n-ally.localesPaths": [
+      "src/assets/locales/index.js",
+      "src/language",
+      "src/assets/locales",
+      "../src/assets/locales"
+    ],
+    "i18n-ally.includeSubfolders": true,
+    "react-i18n.i18nPaths": "src\\assets\\locales"
+  }
+  
